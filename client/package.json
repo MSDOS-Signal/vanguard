@@ -26,9 +26,9 @@
     "tailwind-merge": "^1.13.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
-    "test": "react-scripts test",
+    "start": "node node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "CI=false node node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "node node_modules/react-scripts/bin/react-scripts.js test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
